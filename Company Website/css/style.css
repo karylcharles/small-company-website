@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+body{
+    background: url(../images/nightback.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arvo, serif;
+}
+
+.logo{
+    height: 30px;
+}
+
+.navbar-inverse{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.nav li{
+    color: #fff;
+    font-size: 19px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+
+nav li:hover{
+    border-bottom: 1px solid #00FFB8;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+.jumbotron{
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+}
+
+.body-image{
+    height: 100px;
+}
+
+.col-md-4{
+    text-align: center;
+    color: #fff;
+}
+
+.icons p{
+    font-size: 15px;
+}
+
+.container{
+    max-width: 1000px;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.btn{
+    background-color: rgba(0, 255, 184, 0.5);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px){
+    .body-image{
+        height: 70px;
+    }
+}
